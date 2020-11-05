@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Design Lab</title>
+</head>
+
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="header-logo" viewBox="0 0 69 71">
+      <path fill="none" stroke-width="2" stroke="#fff" fill-rule="evenodd" d="M990.675,352.857l-28.815-55-28.814,55h57.629Z" transform="translate(-927 -284)"/>
+      <path fill="none" stroke-width="2" stroke="#f6f7fc" fill-rule="evenodd" d="M961.5,285A33.216,33.216,0,1,1,928,318.214,33.357,33.357,0,0,1,961.5,285Z" transform="translate(-927 -284)"/>
+      <path fill-rule="evenodd" fill="#fff" d="M961.86,347.857a3.572,3.572,0,1,1-3.6,3.572A3.587,3.587,0,0,1,961.86,347.857Z" transform="translate(-927 -284)"/>
+      <circle fill="#fff" cx="61.515" cy="67.422" r="3.61"/>
+      <path fill="#fff" d="M933.043,347.857a3.572,3.572,0,1,1-3.6,3.572A3.587,3.587,0,0,1,933.043,347.857Z" transform="translate(-927 -284)"/>
+  </symbol>
+
+  <symbol id="footer-logo" viewBox="0 0 69 71">
+    <path fill="none" stroke-width="2" stroke="#3c3c3c" fill-rule="evenodd" d="M990.675,352.857l-28.815-55-28.814,55h57.629Z" transform="translate(-927 -284)"/>
+    <path fill="none" stroke-width="2" stroke="#3c3c3c" fill-rule="evenodd" d="M961.5,285A33.216,33.216,0,1,1,928,318.214,33.357,33.357,0,0,1,961.5,285Z" transform="translate(-927 -284)"/>
+    <path fill-rule="evenodd" fill="#3c3c3c" d="M961.86,347.857a3.572,3.572,0,1,1-3.6,3.572A3.587,3.587,0,0,1,961.86,347.857Z" transform="translate(-927 -284)"/>
+    <circle fill="#3c3c3c" cx="61.515" cy="67.422" r="3.61"/>
+    <path fill="#3c3c3c" d="M933.043,347.857a3.572,3.572,0,1,1-3.6,3.572A3.587,3.587,0,0,1,933.043,347.857Z" transform="translate(-927 -284)"/>
+  </symbol>
+</svg>
+
+<header class="header" style="background: #fff url('img/main-bg.jpg') no-repeat top center / cover">
+  <a href="index.html" class="header__logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 71" class="header__logo__img">
+      <use xlink:href="#header-logo"/>
+    </svg>
+  </a>
+  <h1 class="header__title title">Working <br>with Design Lab</h1>
+  <p class="header__text">
+    We’ve been helping startups launch and grow their businesses. <br>
+    We help you to fill the gap between development, design and product management.
+  </p>
+  <a href="#" class="header__scroll">
+    <img src="img/scroll.svg" alt="Scroll" class="header__scroll__img">
+  </a>
+</header>
+
+<main>
+  <h1 class="visually-hidden">Main information</h1>
+
+  <section class="about inner">
+    <h2 class="visually-hidden">About us</h2>
+    <fieldset class="about__block block">
+      <legend class="about__title block__title title">About us</legend>
+    <p class="about__text block__text">When you work with us, you are part of a team of committed collaborators.  <br>
+      All aspects of our software development process are integrated, iterative and agile.
+       <br> <br>
+      Our approach unifies design, development and
+      product management to create exceptional products.  <br>
+      We start each project by understanding your business goals,
+      the user’s needs and the product requirements.  <br>
+      Then we help translate them into effective and elegant solutions.
+    </p>
+    </fieldset>
+  </section>
+
+  <section class="services" style="background: #000 url('img/services-bg.jpg') no-repeat top center / cover">
+    <h2 class="visually-hidden">Services</h2>
+    <div class="inner">
+      <fieldset class="services__block block">
+        <legend class="services__title block__title title">Services</legend>
+        <p class="services__text block__text">Before we sign a contract or write a line of code our team will spend the
+          necessary time needed to understand your product vision.  <br>
+          The outcome of this scoping session is a proposal or high-level statement of  <br> work.  <br>
+          Based on your requirements, we can provide a complete offering or just the  <br> pieces you need.
+        </p>
+      </fieldset>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <h2 class="visually-hidden">What we do</h2>
+    <div class="inner">
+      <fieldset class="advantages__block block">
+        <legend class="advantages__title block__title title">What we do</legend>
+        <ul class="advantages__text block__text">
+          <li class="advantages__design advantages__item">
+            <img src="img/design-logo.svg" alt="Design Logo" class="advantages__img">
+            <h3 class="advantages__subtitle">Design</h3>
+            <p class="advantages__description">
+              Our design practice offers a full range of services including branding strategy,
+              interaction and visual design and user experience testing.
+              Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed.
+            </p>
+          </li>
+          <li class="advantages__development advantages__item">
+            <img src="img/development-logo.svg" alt="Development Logo" class="advantages__img">
+            <h3 class="advantages__subtitle">Development</h3>
+            <p class="advantages__description">
+              All engineers are fluent in the latest enterprise, mobile and web development technologies.  <br>
+              They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programing.
+            </p>
+          </li>
+          <li class="advantages__management advantages__item">
+            <img src="img/prod-manage-logo.svg" alt="Product Management Logo" class="advantages__img">
+            <h3 class="advantages__subtitle">Product Management</h3>
+            <p class="advantages__description">
+              Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.
+            </p>
+          </li>
+        </ul>
+      </fieldset>
+    </div>
+  </section>
+
+  <section class="gallery container">
+    <h2 class="visually-hidden">Gallery</h2>
+    <a class="gallery__item" href="#"
+         style="background: #000 url('img/topworkz-bg.jpg')
+         no-repeat top center / cover">
+      <h3 class="gallery__item__title title">Topworkz</h3>
+    </a>
+    <a class="gallery__item" href="#"
+         style="background: #000 url('img/joint-bg.jpg')
+         no-repeat top center / cover">
+      <h3 class="gallery__item__title title">Joint</h3>
+    </a>
+    <a class="gallery__item" href="#"
+         style="background: #000 url('img/market-bg.jpg')
+         no-repeat top center / cover">
+      <h3 class="gallery__item__title title">Market</h3>
+    </a>
+    <a class="gallery__item" href="#"
+         style="background: #000 url('img/worktop-bg.jpg')
+         no-repeat top center / cover">
+      <h3 class="gallery__item__title title">Worktop</h3>
+    </a>
+    <a class="gallery__item" href="#"
+         style="background: #000 url('img/lable-bg.jpg')
+         no-repeat top center / cover">
+      <h3 class="gallery__item__title title">Lable</h3>
+    </a>
+    <a class="gallery__item" href="#"
+         style="background: #000 url('img/kyiv-bg.jpg')
+         no-repeat top center / cover">
+      <h3 class="gallery__item__title title">Kyiv</h3>
+    </a>
+  </section>
+
+  <section class="contact inner">
+    <h2 class="visually-hidden">Contact us</h2>
+    <fieldset class="contact__block block">
+      <legend class="contact__title block__title title">Contact us</legend>
+      <p class="contact__text block__text">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+        <a href="#" class="contact__btn btn">Contact us</a>
+    </fieldset>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <h2 class="visually-hidden">Additional information</h2>
+  <a class="footer__logo logo" href="#">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 71" class="footer__logo__img">
+      <use xlink:href="#footer-logo"/>
+    </svg>
+  </a>
+  <p class="copyright">
+    &copy; 2014. All Rights Reserved
+    <a href="#" class="copyright__link">Ellipsis.com</a>
+  </p>
+</footer>
+
+</body>
+
+</html>
